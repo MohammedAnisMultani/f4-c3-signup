@@ -1,0 +1,14 @@
+.parent{
+    border: 1px solid black;
+    padding: 30px;
+    .btn{
+        width: fit-content;
+        padding: 10px;
+        margin-top: 30px;
+        background-color: tomato;
+    
+    }  
+    .inps{
+        padding: 5px;
+    }
+}
