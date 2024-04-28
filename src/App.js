@@ -3,6 +3,7 @@ import "./App.css";
 import Signup from "./Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from "./Profile";
+import { NotFound } from "./NotFound";
 
 const enableRouter = createContext()
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="profile" element={<Profile/>}/>
         <Route path="signup" element={<Signup/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
    </BrowserRouter>
   
